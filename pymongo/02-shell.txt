@@ -1,0 +1,37 @@
+
+
+# --- Install --- #
+brew mongodb
+brew doctor
+brew update
+
+
+# --- Help --- #
+help
+
+
+# --- Bootup --- #
+cd /usr/local/Cellar/mongodb/3.0.4/bin/
+sudo mongod
+
+
+
+# --- Databases --- #
+db = Returns current database
+show collections = Print a list of all collections for current database
+
+show dbs = Returns a list of all databases on the server.
+use <db> = Switch current database to <db>
+
+
+# --- Users --- #
+show users                   show users in current database
+
+
+# --- Editing --- #
+db.collection.find()
+db.collection.drop()
+db.collection.remove()
+db.collection.save()
+db.collection.update()
+db.collection.insert()

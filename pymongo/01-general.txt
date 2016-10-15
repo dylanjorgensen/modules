@@ -1,0 +1,16 @@
+
+
+
+# --- PyCharm's Monogo Explorer Settings --- #
+
+Label: localdb
+Server: localhost:27017
+
+
+
+
+MongoDB stores structured data as JSON-like documents, using dynamic schemas (called BSON), rather than predefined schemas. An element of data is called a document, and documents are stored in collections. One collection may have any number of documents.
+
+Compared to relational databases, we could say collections are like tables, and documents are like records. But there is one big difference: every record in a table has the same fields (with, usually, differing values) in the same order, while each document in a collection can have completely different fields from the other documents.
+
+All you really need to know when you're using Python, however, is that documents are Python dictionaries that can have strings as keys and can contain various primitive types (int, float,unicode, datetime) as well as other documents (Python dicts) and arrays (Python lists).
